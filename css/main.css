@@ -1,0 +1,409 @@
+
+.side-bar{
+   
+   height: 100%;
+    width:180px;
+    background-color: rgb(74,91,109);
+    
+}
+.side-bar ul li{
+    
+    padding: 20px 10px;
+    color: rgb(188,207,244);
+}
+.side-bar ul li:hover{
+    
+    border-left: 5px solid rgb(253,255,216);
+    color: white;
+
+}
+.notification{
+    color: white;
+    background-color: red;
+    width: 20px;
+    padding: 2px 0;
+    box-sizing: border-box;
+    border-radius: 100%;
+    text-align: center;
+}
+.notification-new{
+     color: white;
+    background-color: limegreen;
+    width: 35px;
+    padding: 2px 0;
+    box-sizing: border-box;
+    border-radius: 25%;
+    text-align: center;
+}
+.side-bar ul li .material-icons{
+    font-size: 14px;
+    
+}
+
+.icon-font{
+    position: relative;
+    z-index: 1;
+    top: 3px;
+}
+
+
+.header-list{
+    padding: 10px 0;
+     
+    background-color: rgb(43,52,61);
+    
+   
+    
+}
+
+.header-list ul li a span{
+    position:relative;
+    top:-7px;
+}
+.header-list ul li{
+
+    width: 40px;
+    text-align: center;
+    color:rgb(189,206,222);
+   
+}
+
+.header-list ul li i{
+    font-size: 20px;
+   
+}
+.header-list ul li:hover{
+color:white;
+       
+}
+.header-list ul li:nth-child(4){
+
+    width: 70px;
+    text-align: center;
+    color:rgb(189,206,222);
+}
+
+.user-icon{
+    
+    position: relative;
+}
+
+
+.user-icon span{
+    top: -4px;
+    right: 5px;
+    z-index: 3;
+    position: absolute;
+    font-size:10px;
+    background-color:red;
+    padding:3px;
+    border-radius: 50%;
+}
+
+
+
+  .home{
+    
+      border-bottom: 1px solid rgb(238,238,238);
+    padding: 5px 0;
+} 
+  .home i{
+    
+      font-size: 18px;
+} 
+.dashboard-title{
+    border-bottom: 1px solid rgb(238,238,238);
+    padding: 20px 0;
+    
+}
+
+.dashboard span{
+    display: block;
+}
+.dashboard-user span, .visit-balance span:first-child{
+    color: rgb(194,166,165);
+    margin: 5px 0;
+}
+
+
+
+.visit , .balance{
+    width:100px;
+    text-align: center;
+}
+
+.visit{
+    border-right: 1px solid rgb(204,204,204);
+}
+.nav-li{
+    padding: 20px 0;
+    background-color: rgb(238,238,238);
+}
+nav{
+    
+    
+}
+
+
+
+.nav-li-icon ul li{
+    width: 80px;
+    
+    display: inline;
+    text-align: center;
+     color: rgb(119,119,119);
+}
+.nav-li-icon ul li i{
+ color: rgb(204,204,204);
+}
+.nav-li-icon{
+    text-align: center;
+}
+.nav-li-icon ul li span{
+   position:relative;
+       top: -14px;
+    left: -10px;
+    z-index: 3;
+    position: relative;
+    font-size:10px;
+    background-color:rgb(251,134,117);
+    padding:3px;
+    border-radius: 50%;
+    color: white;
+}
+.registered-user{
+    padding:30px 0;
+}
+
+.reg-content{
+  
+    box-sizing: border-box;
+    padding: 5px;
+    width:270px;
+    height: 120px;
+    margin-right: 20px;
+    float:left;
+    background-color: rgb(251,134,117);
+    border-radius: 10px;
+    position: relative;
+    color: white;
+}
+.reg-content:nth-child(4){
+  
+    margin-right: 0px;
+    
+    
+}
+.reg-user-icon{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    opacity: 0.4;
+    color: white;
+}
+.reg-user-icon i{
+    
+    font-size: 90px; 
+}
+
+.reg-content span{
+    
+    display: block;
+    margin: 10px;
+    
+}
+.reg-icon i{
+    font-size: 100px;
+}
+.reg-text{
+    
+    float: left;
+}
+.reg-icon{
+    float: right;
+    opacity: 0.5;
+}
+.sales-section{
+    padding: 20px 0;
+}
+.sales{
+    width:225px;
+    padding: 20px 10px;
+    background-color: rgb(101,206,166);
+    margin-right:40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.sales:nth-child(3){
+    margin-right: 0;
+    text-align: right;
+    position: relative;
+      
+}
+.sales span{
+    display: block;
+}
+.sales-icon{
+   
+    
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    color: white;
+}
+.sales-icon i{
+    font-size: 60px;
+}
+.work-progress{
+    padding: 20px 0;
+}
+.table-name{
+    padding: 5px 10px;
+    background-color: white;
+    border-bottom: 1px solid rgb(238,238,238);
+}
+table {
+    
+    width: 100%;
+}
+td,th{
+    font-size: 12px;
+    border-bottom: 1px solid rgb(238,238,238);
+    text-align: left;
+    padding: 8px;
+}
+td:first-child, th:first-child {
+    
+   
+    width:300px;
+}
+td:nth-child(2), th:nth-child(2) {
+    
+    
+    width:200px;
+}
+td:nth-child(3), th:nth-child(3) {
+    
+    width:100px;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+.button i{
+    font-size: 20px;
+}
+.time{
+    background-color: rgb(109,175,191);
+    width:30px;
+    padding: 2px 0;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.to-do-list{
+    padding:20px 0;
+}
+
+.list-box{
+    box-sizing: border-box;
+    width:350px;
+    background-color: white;
+    
+    box-shadow: 2px 5px 2px grey;
+}
+
+ .button a i{
+    font-size: 14px;
+}
+
+
+.to-do ul li{
+     border-bottom: 1px solid rgb(238,238,238);
+    padding:10px;
+
+}
+.check-box-notification{
+    padding: 2px;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    
+}
+.to-do .material-icons{
+    font-size: 18px;
+    color: rgb(119,119,119);
+}
+.unread{
+    margin:3px;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: rgb(101,206,165);
+    color: white;
+}
+.feed{
+    margin-left: 40px;
+ padding: 10px;
+    
+}
+.feed-content{
+    height:60px;
+    
+}
+.feed-image img{
+    border-radius: 50%;
+}
+.feeds{
+    padding: 0 10px;
+    box-sizing: border-box;
+    height:30px;
+    
+}
+.feed-text span{
+    display: block;
+    margin: 10px;
+}
+.feed-text span i{
+    font-size:12px;
+}
+
+.recent-products{
+   margin-left: 35px;
+    width: 320px;
+    line-height: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 5px 2px grey;
+    background-color: white;
+    
+
+}
+.rec-pro-body{
+    padding: 10px;
+    font-size: 12px;
+    
+    border-bottom: 1px solid rgb(238,238,238);
+    
+}
+.pro-text{
+    margin-left:10px;
+}
+.rec-pro-head{
+    padding: 10px;
+ 
+    border-bottom: 1px solid rgb(238,238,238);
+}
+.rec-pro-foot{
+    padding: 10px;
+    
+   text-align: center;
+    font-size: 14px;
+    
+}
+.recent{
+
+    padding: 20px 0;
+}
