@@ -48,28 +48,31 @@
 
 
 .header-list{
-    padding: 10px 0;
-     
-    background-color: rgb(43,52,61);
-    
-   
-    
+    color:rgb(189,206,222);
+    height: 50px; 
+   padding: 10px; 
+    box-sizing: border-box;
+    background-color: rgb(43,52,61);    
 }
 
-.header-list ul li a span{
+.user-name span{
     position:relative;
     top:-7px;
 }
-.header-list ul li{
+.user-name{
+    margin-left: 10px;
+}
 
-    width: 40px;
-    text-align: center;
-    color:rgb(189,206,222);
+.header-list ul li{
+    padding: 5px 10px;
+    
+    float: left;
    
 }
 
 .header-list ul li i{
     font-size: 20px;
+    
    
 }
 .header-list ul li:hover{
@@ -78,8 +81,7 @@ color:white;
 }
 .header-list ul li:nth-child(4){
 
-    width: 70px;
-    text-align: center;
+    
     color:rgb(189,206,222);
 }
 
@@ -91,19 +93,19 @@ color:white;
 
 .user-icon span{
     top: -4px;
-    right: 5px;
+    right: -5px;
     z-index: 3;
     position: absolute;
     font-size:10px;
     background-color:red;
     padding:3px;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 
 
   .home{
-    
+      color: rgb(119,119,119);
       border-bottom: 1px solid rgb(238,238,238);
     padding: 5px 0;
 } 
@@ -112,7 +114,7 @@ color:white;
       font-size: 18px;
 } 
 .dashboard-title{
-    border-bottom: 1px solid rgb(238,238,238);
+    color: rgb(119,119,119);
     padding: 20px 0;
     
 }
@@ -124,7 +126,9 @@ color:white;
     color: rgb(194,166,165);
     margin: 5px 0;
 }
-
+.visit-balance{
+    margin-right: 200px;
+}
 
 
 .visit , .balance{
@@ -135,22 +139,19 @@ color:white;
 .visit{
     border-right: 1px solid rgb(204,204,204);
 }
+
 .nav-li{
+    margin-left: -20px;
     padding: 20px 0;
     background-color: rgb(238,238,238);
 }
-nav{
-    
-    
-}
+
 
 
 
 .nav-li-icon ul li{
-    width: 80px;
-    
     display: inline;
-    text-align: center;
+    margin-right: 10px;
      color: rgb(119,119,119);
 }
 .nav-li-icon ul li i{
@@ -159,28 +160,36 @@ nav{
 .nav-li-icon{
     text-align: center;
 }
-.nav-li-icon ul li span{
-   position:relative;
-       top: -14px;
-    left: -10px;
-    z-index: 3;
+.nav-li-notification{
     position: relative;
+}
+.nav-li-notification span{
+   position:absolute;
+       top: -15px;
+    right: -2px;
+    z-index: 3;
     font-size:10px;
     background-color:rgb(251,134,117);
     padding:3px;
-    border-radius: 50%;
+    border-radius: 100%;
     color: white;
 }
 .registered-user{
     padding:30px 0;
 }
 
+.reg-content:nth-child(2){
+  
+   
+    background-color: lightblue;
+  
+}
 .reg-content{
   
     box-sizing: border-box;
-    padding: 5px;
+    padding: 10px 5px;
     width:270px;
-    height: 120px;
+   
     margin-right: 20px;
     float:left;
     background-color: rgb(251,134,117);
@@ -188,10 +197,16 @@ nav{
     position: relative;
     color: white;
 }
+.reg-content:nth-child(3){
+  
+   
+    background-color: lightgrey;
+  
+}
 .reg-content:nth-child(4){
   
     margin-right: 0px;
-    
+    background-color: green;
     
 }
 .reg-user-icon{
@@ -223,7 +238,7 @@ nav{
     float: right;
     opacity: 0.5;
 }
-.sales-section{
+.sales-div{
     padding: 20px 0;
 }
 .sales{
@@ -239,13 +254,24 @@ nav{
 }
 
 .sales:nth-child(3){
+    background-color: rgb(243,207,133);
     margin-right: 0;
     text-align: right;
     position: relative;
       
 }
+.sales:nth-child(2){
+    background-color: lightblue;
+      
+}
 .sales span{
     display: block;
+}
+.sales span:first-child{
+    font-size: 32px;
+}
+.sales span:nth-child(2){
+    font-size: 14px;
 }
 .sales-icon{
    
@@ -260,6 +286,7 @@ nav{
 }
 .work-progress{
     padding: 20px 0;
+    color: rgb(119,119,119);
 }
 .table-name{
     padding: 5px 10px;
@@ -310,11 +337,19 @@ tr:nth-child(odd) {
 }
 
 .list-box{
+    color: rgb(119,119,119);
     box-sizing: border-box;
     width:350px;
     background-color: white;
     
     box-shadow: 2px 5px 2px grey;
+}
+.list-title,.feeds{
+     padding: 0 10px;
+    box-sizing: border-box;
+    height:30px;
+    
+    border-bottom: 1px solid rgb(238,238,238);
 }
 
  .button a i{
@@ -347,7 +382,7 @@ tr:nth-child(odd) {
 }
 .feed{
     margin-left: 40px;
- padding: 10px;
+ padding-left: 10px;
     
 }
 .feed-content{
@@ -358,10 +393,7 @@ tr:nth-child(odd) {
     border-radius: 50%;
 }
 .feeds{
-    padding: 0 10px;
-    box-sizing: border-box;
-    height:30px;
-    
+   
 }
 .feed-text span{
     display: block;
@@ -372,7 +404,9 @@ tr:nth-child(odd) {
 }
 
 .recent-products{
-   margin-left: 35px;
+    
+   margin: 20px 0 0 35px;
+    color: rgb(119,119,119);
     width: 320px;
     line-height: 20px;
     box-sizing: border-box;
@@ -402,8 +436,4 @@ tr:nth-child(odd) {
    text-align: center;
     font-size: 14px;
     
-}
-.recent{
-
-    padding: 20px 0;
 }
